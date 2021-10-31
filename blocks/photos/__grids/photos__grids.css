@@ -1,0 +1,9 @@
+@import url(./_item/photos__grids_item.css);
+
+.photos__grids {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* grid-template-rows: repeat(3, 1fr); */
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+}

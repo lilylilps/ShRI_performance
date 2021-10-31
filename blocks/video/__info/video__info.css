@@ -1,0 +1,4 @@
+.video__info {
+    display: flex;
+    flex-direction: column;
+}

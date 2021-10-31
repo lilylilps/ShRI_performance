@@ -1,0 +1,95 @@
+@import url(./__title/video__title.css);
+@import url(./__subtitle/video__subtitle.css);
+@import url(./__container/video__container.css);
+@import url(./__item/video__item.css);
+@import url(./__icon/video__icon.css);
+@import url(./__item-title/video__item-title.css);
+@import url(./__item-subtitle/video__item-subtitle.css);
+@import url(./__item-bg/video__item-bg.css);
+@import url(./__duration/video__duration.css);
+@import url(./__content/video__content.css);
+@import url(./__info/video__info.css)
+;
+.video {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1184px;
+    margin: 0px auto 102px;
+}
+
+@media screen and (max-width: 1024px) {
+    .video {
+        max-width: 100%;
+        margin: 0px 48px 102px;
+    }
+    .video__item {
+        max-width: 456px;
+    }
+    .video__item:last-child {
+        margin-left: 16px;
+    }
+    .video__content {
+        padding-bottom: 35px;
+    }
+    .video__item-bg {
+        height: 288px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .video {
+        margin: 0px 24px 102px;
+    }
+    .video__title {
+        font-size: 42px;
+        line-height: 46px;
+        margin-bottom: 24px;
+        max-width: 620px;
+    }
+    .video__subtitle {
+        margin-bottom: 56px;
+    }
+    .video__item {
+        max-width: 352px;
+    }
+    .video__content {
+        padding: 25px;
+    }
+    .video__item-title {
+        margin: 8px 0 12px;
+        font-size: 24px;
+        line-height: 26px;
+    }
+    .video__item-bg {
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    .video {
+        margin: 0px 16px 102px;
+    }
+    .video__title {
+        font-size: 32px;
+        line-height: 35px;
+        margin-bottom: 16px;
+    }
+    .video__subtitle {
+        font-size: 16px;
+        line-height: 23px;
+        margin-bottom: 24px;
+    }
+    .video__item:last-child {
+        margin-left: 0;
+    }
+    .video__item-title {
+        margin: 8px 0 2px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .video__item-bg {
+        height: 192px;
+    }
+}

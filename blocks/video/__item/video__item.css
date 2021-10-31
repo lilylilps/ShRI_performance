@@ -1,0 +1,21 @@
+.video__item {
+    max-width: 583px;
+    position: relative;
+    cursor: pointer;   
+}
+
+.video__item:last-child {
+    margin-left: 18px;
+}
+
+.video__item:hover:after {
+    content: "";
+    position: absolute;
+    opacity: 0.7;
+    background-color: #2A2C2F;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    z-index: 1;
+}

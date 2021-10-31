@@ -1,0 +1,12 @@
+.place__website {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    transition: opacity 0.5s;
+}
+
+.place__website:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
